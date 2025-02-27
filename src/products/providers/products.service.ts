@@ -1,13 +1,8 @@
-import { Injectable } from '@nestjs/common';
-<<<<<<< HEAD
-
-@Injectable()
-export class ProductsService {}
-=======
 import { InjectRepository } from '@nestjs/typeorm';
 import { Product } from '../product.entity';
 import { CreateProductDto } from '../dtos/create-product.dto';
 import { Repository } from 'typeorm';
+import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class ProductsService {
@@ -26,4 +21,3 @@ export class ProductsService {
     return await this.productsRepository.find();
   }
 }
->>>>>>> category
