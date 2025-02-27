@@ -1,7 +1,7 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
-export class Product {
+export class Category {
   @PrimaryGeneratedColumn()
   id: number;
 
@@ -10,7 +10,7 @@ export class Product {
     length: 96,
     nullable: false,
   })
-  productName: string;
+  categoryName: string;
 
   @Column({
     type: 'varchar',

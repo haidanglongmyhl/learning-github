@@ -1,0 +1,7 @@
+POST http:/localhost:3000/categories/create
+Content-Type: application/json
+
+{
+    "categoryName": "Danh muc A",
+    "description": "HEHE"
+}
