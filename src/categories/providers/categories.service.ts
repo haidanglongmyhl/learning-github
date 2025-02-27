@@ -17,4 +17,8 @@ export class CategoriesService {
 
     return newCategory;
   }
+
+  public async getList() {
+    return await this.categoriesRepository.find();
+  }
 }
