@@ -1,0 +1,7 @@
+POST http:/localhost:3000/products/create
+Content-Type: application/json
+
+{
+    "categoryName": "Product A",
+    "description": "HEHE"
+}
