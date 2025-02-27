@@ -1,0 +1,5 @@
+GET http:/localhost:3000/users/1234/?limit=10&page=1
+
+//httpyac là một công cụ dòng lệnh và tiện ích mở rộng hỗ trợ bạn thực thi các yêu cầu HTTP từ các tệp .http
+//  hoặc .rest. Nó giúp bạn kiểm thử API một cách thuận tiện mà không cần dựa vào các phần mềm giao diện người dùng
+//  như Postman
