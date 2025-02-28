@@ -7,7 +7,7 @@ export class Order {
 
   @Column({
     type: 'varchar',
-    length: 96,
+    length: 50,
     nullable: false,
   })
   orderName: string;
